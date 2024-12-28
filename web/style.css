@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.choices {
+    margin: 20px;
+}
+
+.choice {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.choice:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.result {
+    margin: 20px;
+}
+
+.result p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#player-choice,
+#computer-choice {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#score {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #28a745;
+}
